@@ -24,7 +24,6 @@ class WeatherClass {
 
     render() {
 
-        // document.body.innerHTML += `<img src="http://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png" />`;
 
         let div = document.createElement("div");
         div.className = "col-md-5 p-2 shadow";
